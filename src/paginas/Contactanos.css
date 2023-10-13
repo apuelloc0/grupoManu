@@ -1,0 +1,173 @@
+.Contacto {
+    width: 100%;
+    height: 100vh;
+}
+
+.Contacto-title {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    position: relative;
+    margin-top: 9%;
+}
+
+.Contacto-title h1 {
+    color: #ffff;
+    position: absolute;
+    top: 57px;
+    left: 13%;
+    font-size: 25.5px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+}
+
+.Contacto-Formulario {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #017a3e, #90c29e);
+}
+
+.form-container {
+    width: 600px;
+    height: 391px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: #b3cda8;
+    border-radius: 7px;
+
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 7px;
+    margin-top: 25px;
+}
+
+form input {
+    width: 561px;
+    border: 0;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 13px;
+    border-radius: 7px;
+}
+
+
+
+form input:focus {
+    outline: 0;
+}
+
+form input::placeholder {
+    color: rgb(163, 163, 163);
+}
+
+form input:nth-child(1),
+form input:nth-child(2),
+form input:nth-child(3) {
+    height: 37px;
+}
+
+form input.message {
+    height: 75px;
+}
+
+.button {
+    margin-top: 13px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form button {
+    width: 200px;
+    height: 49px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: green;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: rgb(3, 175, 3);
+
+}
+
+.Contacto-subtitle {
+    width: 100%;
+    height: 98px;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contacto-subtitle h2 {
+    display: inline-block;
+    color: #017a3e;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Barlow Semi Condensed';
+}
+
+.Contacto-email {
+    width: 100%;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Contacto-email .email {
+    width: 600px;
+    height: 420px;
+    background-color: #67be93;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: ease-in 1s;
+}
+
+.Contacto-email .email:hover {
+    background: linear-gradient(to bottom right, #017a3e, #90c29e);
+    color: #ffff;
+    /* transform: scale(1.1, 1.1); */
+
+    transform: translate(1.1, 1.1);
+}
+
+.Contacto-email .email a {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+}
+
+.Errors {
+    height: 14px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.span-errors {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+    font-weight: 500;
+    margin-left: 15px;
+    letter-spacing: 0.5s;
+}

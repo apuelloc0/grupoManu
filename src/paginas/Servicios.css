@@ -1,0 +1,60 @@
+.Servicios {
+    width: 100%;
+    height: 100%;
+}
+
+.Servicios-title {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    position: relative;
+    margin-top: 9%;
+}
+
+.Servicios-title h1 {
+    color: #ffff;
+    position: absolute;
+    top: 57px;
+    left: 13%;
+    font-size: 25.5px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+}
+
+.Servicios-container {
+    width: 100%;
+    min-height: 400px;
+    max-height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 30px;
+}
+
+.Servicios-container:nth-child(1) {
+    margin-top: 20px;
+}
+
+.Servicios-container .text {
+    width: 35%;
+}
+
+.Servicios-container .slider {
+    width: 35%;
+}
+
+.Servicios-container h3 {
+    color: #017a3e;
+    font-size: 21.25px;
+    font-family: 'Barlow Semi Condensed';
+    margin-bottom: 24px;
+}
+
+.Servicios-container p,
+.Servicios-container ul li {
+    color: #7c6e65;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+}

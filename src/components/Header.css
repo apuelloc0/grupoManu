@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.Header {
+    width: 100%;
+    height: 94px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0.5px 5px rgb(218, 215, 215);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    /* box-sizing: border-box; */
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+}
+
+.Header-show {
+    display: flex;
+    height: 116px;
+}
+
+.Header-ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: 1s;
+}
+
+.Header-img {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.Header-img img {
+    width: 131px;
+    height: 104px;
+    /* transition-timing-function: ease-in; */
+    transition: 0.5s;
+    position: absolute;
+    top: -5px
+}
+
+.Header-img img.img-show {
+    width: 150px;
+    height: 115px;
+    object-fit: cover;
+    margin-top: 4px;
+}
+
+.Header-list {
+    width: 70%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.Header-list ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+    list-style: none;
+}
+
+.Header-list ul li a {
+    text-decoration: none;
+    color: rgb(105, 104, 104);
+    padding: 14px 10px 30px;
+}
+
+.Header-list ul li:nth-child(6) {
+    border-left: 1px solid rgb(182, 181, 181);
+    padding-left: 15px;
+}
+
+.Header-list ul li a:hover {
+    color: green;
+}
+
+.Header-search {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-left: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.Header-search .navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-show {
+    width: 70%;
+    height: 100%;
+    position: relative;
+}
+
+.navbar-show input {
+    position: absolute;
+    border: none;
+    top: 30%;
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(167, 167, 167)
+}
+
+.navbar-show input:focus {
+    outline: none;
+}
+
+img.close {
+    width: 32px;
+    height: 27px;
+    position: absolute;
+    top: 45%;
+    right: 0;
+}
+
+.Header-search .box-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header-search img {
+    width: 20px;
+    height: 20px;
+}
